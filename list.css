@@ -1,0 +1,127 @@
+body {
+	background-color: #fff;
+}
+#bottom {
+	text-align: center;
+	margin-top: 10px;
+}
+/* Top Content */
+#main {
+	font-family: 'Istok Web', 'Raleway';
+	font-size: 15px;
+}
+/* Input Etc. */
+#form {
+	margin-top:5px;
+	text-align: center;
+}
+
+#newItem {
+	height: 30px;
+	width: 60%;
+	font-size: 1.2em;
+	text-indent: 4px;
+	border: 1px solid rgb(0,0,0);
+	border-radius: 3px;
+}
+
+#addItem {
+	height: 30px;
+	background-color: rgb(63, 199, 231);
+	border: 0;
+	border-radius: 3px;
+	padding: 5px 20px 5px 20px;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.line {
+	margin: 5px;
+	border-bottom: 1px solid grey;
+	width: 100%;
+	margin-left:auto; 
+	margin-right:auto;
+}
+/* Bottom Content */
+#bottom {
+	
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 15px;
+}
+#itemList {
+	text-align: left;
+	padding-left: 5px;
+}
+
+.item {
+	background-color: rgb(140, 158, 253);
+	margin:5px 5px 0px 0px;
+		
+}
+
+.list {
+	display: inline-block;
+	font-weight: bold;
+}
+.box {
+	padding: 0 10px;
+	display: inline-block;
+}
+li {
+	font-family: 'Source Sans Pro';
+	font-size: 1.2em;
+	text-transform: uppercase;
+	display: block;
+	padding: 4px 0;
+}
+.bought .list{
+	color:grey;
+	text-decoration: line-through;
+}
+.bought .checkbox{
+	background-color: rgb(183, 183, 183);
+}
+.checkbox {
+	height: 30px;
+	background-color: rgb(104, 223, 101);
+	border: 0;
+	border-radius: 3px;
+	margin-left: 5px;
+	margin-right: 20px;
+	
+	padding: 5px 20px 5px 20px;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', arial;
+}
+
+.checkbox:focus {
+	outline: none;
+}
+.delete {
+	height: 30px;
+	background-color: rgb(252, 88, 88);
+	border: 0;
+	font-size: 2em;
+	border-radius: 3px;
+	margin-right: 5px;
+	
+	padding: 5px 20px 5px 20px;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	font-family: 'Source Sans Pro', arial;
+	float: right;
+	font-weight: bold;
+}
+
+.delete:focus {
+	outline: none;
+}
