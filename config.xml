@@ -1,0 +1,15 @@
+
+ <widget id="com.example.hello" version="0.0.1">
+        <name>HelloWorld</name>
+        <description>
+            popisek
+        </description>
+        <preference name="permissions" value="none" />  
+        <author email="dev@callback.apache.org" href="http://phonegap.com">
+            Apache Cordova Team
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+    </widget>
+    
+    
