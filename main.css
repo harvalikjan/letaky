@@ -1,8 +1,10 @@
+* {
+  -webkit-backface-visibility: hidden;
+}
 body {
   margin: 0;
   padding: 0;
   background: #ccc;
-  -webkit-backface-visibility: hidden;
 }
 
 .nav ul {
