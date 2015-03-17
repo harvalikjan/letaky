@@ -32,17 +32,17 @@ function init() {
 }
 
 function updateStorage() {
-    // Dumping current storage
-    localStorage.setItem("toBuy","");
-    localStorage.setItem("bought","");
 
     var toBuyList = [];
     var boughtList = [];
+
     // for each of list
-    $( ".item" ).each(function() {
-        var text = $( this ).children( ".list" ).text();
-        // Sorting them out
-        if( $( this ).hasClass( "bought" ).toString() == "true" ){
+    $(".item").each(function() {
+
+        var text = $(this).children(".list").text();
+
+        // Sorting them out to arrays
+        if( $(this).hasClass("bought").toString() == "true"){
             boughtList.push(text);
         }
         else{
@@ -85,7 +85,7 @@ function toggleItem() {
 
     updateStorage();
 
-    // List is redrawn to put toBuy item on top
+    // List is redrawn to put toBuy items on top
     $('#itemList').html("");
     init();
 }
