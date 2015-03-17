@@ -1,34 +1,38 @@
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
     <title>České letáky</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="http://192.168.1.101/c/list.css" />
-    <link rel="stylesheet" type="text/css" href="http://192.168.1.101/c/main.css" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript" src="http://192.168.1.101/c/list.js"></script>
+    <link rel="stylesheet" type="text/css" href="list.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="list.js"></script>
 </head>
 
 <body onLoad="init()">
     <div class="nav">
         <ul>
-            <li class="letaky"><a href="letaky.html">Letáky</a></li>
-            <li class="star"><a href="#"><img src="http://192.168.1.101/c/star.png" /></a></li>
-            <li class="seznam active"><a href="index.html">Seznam</a></li>
+            <li>
+                <a href="letaky.html">Letáky</a>
+            </li>
+
+            <li class="star">
+                <a href="#"><img src="star.png" /></a>
+            </li>
+
+            <li class="active">
+                <a href="index.html">Seznam</a>
+            </li>
+
         </ul>
     </div>
-
-
-    <div id="main">
-        <div id="top">
-            <div id="form">
-                <input type="text" id="newItem" placeholder="Zadejte zboží" />
-                <input type="submit" id="addItem" value="Přidat" />
-            </div>
-
-            <div class="line"></div>
-        </div>
+   
+    <div id="form">
+        <input type="text" id="newItem" placeholder="Zadejte zboží" />
+        <input type="submit" id="addItem" value="Přidat" />
     </div>
 
+    <div class="line"></div>
+        
     <div id="bottom">
         <div class="items">
             <ul id="itemList"></ul>
