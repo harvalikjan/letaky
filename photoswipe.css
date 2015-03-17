@@ -1,3 +1,4 @@
+
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
 .pswp {
   display: none;
@@ -22,8 +23,8 @@
 .pswp--animate_opacity {
   opacity: 0.001;
   will-change: opacity;
-  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
-          transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+  
+        }
 
 .pswp--open {
   display: block; }
@@ -88,14 +89,12 @@
   width: 100%;
   -webkit-transform-origin: left top;
   -ms-transform-origin: left top;
-  transform-origin: left top;
-  -webkit-transition: -webkit-transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
-          transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+  transform-origin: left top; 
+}
 
 .pswp__bg {
   will-change: opacity;
-  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
-          transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+}
 
 .pswp--animated-in .pswp__bg, .pswp--animated-in .pswp__zoom-wrap {
   -webkit-transition: none;
@@ -117,8 +116,8 @@
   position: absolute;
   width: auto;
   height: auto;
-  -webkit-transition: opacity 0.15s;
-          transition: opacity 0.15s; }
+
+}
 
 .pswp__img--placeholder {
   -webkit-backface-visibility: hidden; }
