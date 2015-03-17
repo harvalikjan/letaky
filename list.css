@@ -1,16 +1,7 @@
 body {
 	background-color: #fff;
 }
-#bottom {
-	text-align: center;
-	margin-top: 10px;
-}
-/* Top Content */
-#main {
-	font-family: 'Istok Web', 'Raleway';
-	font-size: 15px;
-}
-/* Input Etc. */
+
 #form {
 	margin-top:5px;
 	text-align: center;
@@ -26,7 +17,7 @@ body {
 }
 
 #addItem {
-	height: 30px;
+	height: 34px;
 	background-color: rgb(63, 199, 231);
 	border: 0;
 	border-radius: 3px;
@@ -47,32 +38,31 @@ body {
 }
 /* Bottom Content */
 #bottom {
-	
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
 }
+
 #itemList {
 	text-align: left;
 	padding-left: 5px;
 }
 
 .item {
-	background-color: rgb(140, 158, 253);
-	margin:5px 5px 0px 0px;
-		
+	background: rgb(140, 158, 253);
+	background-size: 5px;
+	margin:5px 5px 0px 0px;		
 }
 
 .list {
 	display: inline-block;
 	font-weight: bold;
 }
-.box {
-	padding: 0 10px;
-	display: inline-block;
-}
-li {
+
+#itemList li {
 	font-family: 'Source Sans Pro';
 	font-size: 1.2em;
 	text-transform: uppercase;
