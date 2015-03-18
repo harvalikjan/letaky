@@ -94,12 +94,18 @@ function toggleItem() {
 
 function showSeznam(){
 	$("#letaky").hide();
+	$("#letakyLink").removeClass("active"); 
+
 	$("#seznam").show();
+	$("#seznamLink").addClass("active")
 }
 
 function showLetaky(){
 	$("#seznam").hide();
+	$("#seznamLink").removeClass("active"); 
+
 	$("#letaky").show();
+	$("#letakyLink").addClass("active")
 }
 
 
