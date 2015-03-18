@@ -90,12 +90,28 @@ function toggleItem() {
     init();
 }
 
+
+
+function showSeznam(){
+	$("#letaky").hide();
+	$("#seznam").show();
+}
+
+function showLetaky(){
+	$("#seznam").hide();
+	$("#letaky").show();
+}
+
+
 $(function() {
 
 	var add = $('#addItem');
 	var newItem = $('#newItem');
 	var list = $('#itemList');
-	
+
+	$("#seznamLink").on('click',showSeznam);
+	$("#letakyLink").on('click',showLetaky);
+
 	add.on('click', addListItem);
 	list.on('click', '.checkbox', toggleItem);
 	list.on('click', '.delete', deleteItem);
