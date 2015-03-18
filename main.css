@@ -41,6 +41,9 @@ body {
 #letaky .t img {
   height:150px;
   width:150px;
-  margin-left:10px;
-  
+  margin-left:10px; 
+}
+
+#letaky .pages{
+  float:right;
 }
