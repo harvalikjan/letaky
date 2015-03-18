@@ -4,7 +4,8 @@
         <description>
             popisek
         </description>
-        <preference name="permissions" value="none" />  
+        <preference name="permissions" value="none" /> 
+        <preference name="Orientation" value="portrait" />
         <author email="dev@callback.apache.org" href="http://phonegap.com">
             Apache Cordova Team
         </author>
